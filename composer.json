@@ -1,0 +1,21 @@
+{
+  "name": "Rinbank",
+  "description": "Wow auction overview",
+  "keywords": ["wow", "auction house"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonty Sponselee",
+      "email": "jonty_wolf@hotmail.com",
+      "role": "Creator / Main Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RinB\\": "app/"
+    }
+  }
+}
