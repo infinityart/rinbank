@@ -7,4 +7,5 @@ declare(strict_types = 1);
 
 return [
     ['GET', '/', ['RinB\Controllers\Homepage', 'show']],
+    ['GET', '/{slug}', ['RinB\Controllers\Page', 'show']],
 ];
