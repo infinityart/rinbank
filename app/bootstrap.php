@@ -23,9 +23,10 @@ if ($environment !== 'production') {
 
 $whoops->register();
 
-// Register Http Component.
+// Dependency injector.
 $injector = include('Dependencies.php');
 
+// Register Http Component.
 $request = $injector->make('Http\HttpRequest');
 $response = $injector->make('Http\HttpResponse');
 
