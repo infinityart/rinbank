@@ -18,7 +18,6 @@ use RinB\Template\Renderer;
 
 class Homepage
 {
-
     private $request;
     private $response;
     private $renderer;
@@ -38,5 +37,4 @@ class Homepage
         $html = $this->renderer->render('homepage', $data);
         $this->response->setContent($html);
     }
-
 }
