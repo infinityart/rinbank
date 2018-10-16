@@ -62,5 +62,4 @@ foreach ($response->getHeaders() as $header) {
     header($header, false);
 }
 
-
 echo $response->getContent();

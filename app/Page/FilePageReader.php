@@ -31,5 +31,4 @@ class FilePageReader implements PageReader
 
         return file_get_contents($path);
     }
-
 }
